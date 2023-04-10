@@ -12,7 +12,7 @@ const name = require('./src/locale/en_GB/messages.json').appName.message;
 module.exports = merge(common, {
   mode: 'production',
   optimization: {
-    minimize: true,
+    minimize: false,
     minimizer: [
       new CssMinimizerPlugin({
         minify: CssMinimizerPlugin.cleanCssMinify
