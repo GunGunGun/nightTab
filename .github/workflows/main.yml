@@ -28,5 +28,5 @@ jobs:
           # Artifact name
           name: nighttab# optional, default is artifact
           # A file, directory or wildcard pattern that describes what to upload
-          path: /home/runner/work/
+          path: /home/runner/work/nightTab/
           # The desired behavior if no files are found using the provided path.
