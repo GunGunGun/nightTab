@@ -20,7 +20,8 @@ module.exports = merge(common, {
       new TerserPlugin({
         terserOptions: {
           format: {
-            comments: false,
+            comments: true,
+            keep_fnames: true,
           },
         },
         extractComments: false,
