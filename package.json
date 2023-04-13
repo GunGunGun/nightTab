@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.dev.js",
     "lint": "eslint --fix --ext .js,.ts,.test.ts .",
     "prepare": "husky install",
     "test": "jest tests/*"
