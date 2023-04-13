@@ -1,4 +1,4 @@
-name: gh-pages-deploy
+name: build
 
 on:
   workflow_dispatch:
